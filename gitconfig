@@ -1,0 +1,7 @@
+[user]
+	email = guuuuud@aliyun.com
+	name = GuuD WU
+[push]
+	default = simple
+[merge]
+	tool = vimdiff
