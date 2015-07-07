@@ -13,4 +13,12 @@ then
   mv $HOME"/.vim" backup/vim-$current_time
 fi
 
+if [ -d "vim" ]
+then
+  ln -s $PWD/vim $HOME/.vim
+else
+  echo 'No template file.'
+  exit 1
+fi
+
 exit 0
