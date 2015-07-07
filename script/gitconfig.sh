@@ -6,10 +6,11 @@ then
   exit 255
 fi
 
+current_time=$(date +%Y%m%d-%H%M%S)
 if [ -f $HOME"/.gitconfig" ]
 then
   echo 'Existing file moved to backup directory.'
-  mv $HOME"/.gitconfig" backup/
+  mv $HOME"/.gitconfig" backup/gitconfig-$current_time
 fi
 
 if [ -f "gitconfig" ]
