@@ -12,4 +12,12 @@ then
   mv $HOME"/.gitconfig" backup/
 fi
 
+if [ -f "gitconfig" ]
+then
+  ln -s $PWD/gitconfig $HOME/.gitconfig
+else
+  echo 'No template file.'
+  exit 1
+fi
+
 exit 0
