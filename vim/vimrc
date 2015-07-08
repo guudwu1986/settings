@@ -24,3 +24,7 @@ set spell
 
 nnoremap <C-j> /<++><CR>"_cf>
 inoremap <C-j> <ESC>/<++><CR>"_cf>
+
+" Trailing Blank Check
+
+autocmd BufWrite * %s/ \+$//e
