@@ -2,6 +2,8 @@
 
 set modeline
 
+filetype plugin indent on
+
 " Display
 
 set ruler
