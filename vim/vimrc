@@ -13,3 +13,8 @@ set relativenumber
 " Spell
 
 set spell
+
+" Mapping
+
+nnoremap <C-j> /<++><CR>"_cf>
+inoremap <C-j> <ESC>/<++><CR>"_cf>
