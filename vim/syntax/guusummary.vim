@@ -14,6 +14,11 @@ syntax region guuArgument oneline matchgroup=Comment concealends
 highlight guuArgument ctermfg=Red
 nnoremap <buffer> <LocalLeader>a a\a\|\|a\<++><ESC>6hi
 
+syntax region guuOption oneline matchgroup=Comment concealends
+  \ start='\\o|' end='|o\\' contains=@NoSpell,guuArgument
+highlight guuOption ctermfg=Magenta
+nnoremap <buffer> <LocalLeader>o a\o\|\|o\<++><ESC>6hi
+
 syntax region guuString oneline matchgroup=Comment concealends
   \ start='\\s|' end='|s\\' contains=@NoSpell,guuArgument
 highlight guuString ctermfg=Yellow
