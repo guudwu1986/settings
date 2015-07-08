@@ -1,5 +1,6 @@
 " Option
 
+setlocal tags=./guutags
 setlocal conceallevel=3
 
 " Highlight
