@@ -30,3 +30,4 @@ highlight guuCommandArgument ctermbg=Yellow ctermfg=Red
 syntax region guuSpecialArgument oneline matchgroup=Comment concealends
   \ contained start='\\s|' end='|s\\' contains=@NoSpell
 highlight guuSpecialArgument ctermbg=Yellow ctermfg=Blue
+nnoremap <Left> a\c\|\s\|<C->\|s\\|c\<++><ESC>10hi
