@@ -12,3 +12,4 @@ function! AddTag(name)
 endfunction
 command! -nargs=1 T call AddTag("<args>")
 
+nnoremap <buffer> <SPACE> :tabonly<CR>
