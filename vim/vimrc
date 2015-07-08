@@ -10,6 +10,12 @@ set ruler
 set number
 set relativenumber
 
+" Tab
+
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+
 " Spell
 
 set spell
