@@ -116,3 +116,7 @@ fi
 # Personal
 
 export PS1='\$ '
+
+cd() {
+  builtin cd "$@" && pwd && ls
+}
