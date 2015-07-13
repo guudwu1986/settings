@@ -120,3 +120,7 @@ export PS1='\$ '
 cd() {
   builtin cd "$@" && pwd && ls
 }
+
+setfont Uni3-TerminusBold32x16
+alias small='setfont Uni3-TerminusBold14'
+alias large='setfont Uni3-TerminusBold32x16'
