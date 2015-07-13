@@ -24,6 +24,11 @@ syntax region guuString oneline matchgroup=Comment concealends
 highlight guuString ctermfg=Yellow
 nnoremap <buffer> <LocalLeader>s a\s\|\|s\<++><ESC>6hi
 
+syntax region guuItem oneline matchgroup=Comment concealends
+  \ start='\\i|' end='|i\\' contains=@NoSpell,guuArgument
+highlight guuItem ctermfg=Green
+nnoremap <buffer> <LocalLeader>i a\i\|\|i\<++><ESC>6hi
+
 syntax region guuCommand oneline matchgroup=Comment concealends
   \ start='\\c|' end='|c\\'
   \ contains=@NoSpell,guuCommandArgument,guuSpecialArgument
