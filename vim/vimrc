@@ -25,6 +25,10 @@ set spell
 nnoremap <C-j> /<++><CR>"_cf>
 inoremap <C-j> <ESC>/<++><CR>"_cf>
 
+" Completion
+
+set wildmode=longest:list
+
 " Misc
 
 set autoindent
