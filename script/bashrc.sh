@@ -13,4 +13,12 @@ then
   mv $HOME"/.bashrc" backup/bashrc-$current_time
 fi
 
+if [ -f "bashrc" ]
+then
+  ln -s $PWD/bashrc $HOME/.bashrc
+else
+  echo 'No template file.'
+  exit 1
+fi
+
 exit 0
