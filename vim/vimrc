@@ -10,6 +10,7 @@ set ruler
 set number
 set relativenumber
 set showcmd
+set showmode
 
 " Tab
 
