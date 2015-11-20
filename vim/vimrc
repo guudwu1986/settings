@@ -7,10 +7,11 @@ filetype plugin indent on
 " Display
 
 set ruler
-set number
-set relativenumber
 set showcmd
 set showmode
+
+set number
+set relativenumber
 
 " Tab
 
@@ -26,6 +27,10 @@ set spell
 
 nnoremap <C-j> /<++><CR>"_cf>
 inoremap <C-j> <ESC>/<++><CR>"_cf>
+
+inoremap <buffer> () ()<++><ESC>F)i
+inoremap <buffer> [] []<++><ESC>F]i
+inoremap <buffer> {} {}<++><ESC>F}i
 
 " Completion
 

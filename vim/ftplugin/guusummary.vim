@@ -14,6 +14,3 @@ command! -nargs=1 T call AddTag("<args>")
 
 nnoremap <buffer> <SPACE> :tabonly<CR>
 
-inoremap <buffer> () ()<++><ESC>F)i
-inoremap <buffer> [] []<++><ESC>F]i
-inoremap <buffer> {} {}<++><ESC>F}i
