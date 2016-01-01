@@ -7,3 +7,6 @@ inoremap <buffer> IMP implicit none
 inoremap <buffer> DOU double precision
 inoremap <buffer> DIM dimension()<++><C-O>4h
 inoremap <buffer> WRI write(*,*)<SPACE>
+inoremap <buffer> IIN intent(in)<SPACE>
+inoremap <buffer> IOU intent(out)<SPACE>
+inoremap <buffer> IIO intent(inout)<SPACE>
