@@ -10,3 +10,5 @@ inoremap <buffer> WRI write(*,*)<SPACE>
 inoremap <buffer> IIN intent(in)<SPACE>
 inoremap <buffer> IOU intent(out)<SPACE>
 inoremap <buffer> IIO intent(inout)<SPACE>
+
+setlocal foldmethod=marker
