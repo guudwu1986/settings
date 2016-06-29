@@ -116,6 +116,7 @@ fi
 # Personal
 
 export PS1='\$ '
+export INVERSE_ODE='/home/guud/program/inverse_ode'
 
 cd() {
   builtin cd "$@" && pwd && ls
