@@ -1,3 +1,7 @@
+" VI compatible
+
+set nocompatible
+
 " Auto-command
 
 set modeline
