@@ -13,3 +13,8 @@ inoremap <buffer> [[ \left[  \right]<++><ESC>F\hi
 inoremap <buffer> {{ \left{  \right}<++><ESC>F\hi
 inoremap <buffer> << \left\langle  \right\rangle<++><ESC>2F\hi
 inoremap <buffer> \|\| \left\\|  \right\\|<++><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
+
+vnoremap <buffer> <BS> :s/^/%<CR><C-O>
+nnoremap <buffer> <BS> :s/^/%<CR><C-O>
+vnoremap <buffer> <SPACE> :s/^\s*\zs%//e<CR><C-O>
+nnoremap <buffer> <SPACE> :s/^\s*\zs%//e<CR><C-O>
