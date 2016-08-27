@@ -5,6 +5,7 @@ set nocompatible
 " Auto-command
 
 set modeline
+set autoread
 
 filetype plugin indent on
 
