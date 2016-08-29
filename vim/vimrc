@@ -12,6 +12,7 @@ filetype plugin indent on
 " Display
 
 set laststatus=2
+set report=0
 
 set ruler
 set showcmd
