@@ -21,6 +21,8 @@ set showmode
 set number
 set relativenumber
 
+set showbreak=++++
+
 " Tab
 
 set expandtab
