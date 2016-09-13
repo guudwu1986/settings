@@ -50,6 +50,8 @@ set wildmode=longest:list
 
 set autoindent
 
+set whichwrap=
+
 " Trailing Blank Check
 
 autocmd BufWrite * %s/ \+$//e
