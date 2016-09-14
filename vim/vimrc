@@ -46,6 +46,16 @@ inoremap <buffer> {} {}<++><ESC>F}i
 
 set wildmode=longest:list
 
+" Mapping
+
+set notimeout
+if has('gui_running')
+  set nottimeout
+else
+  set ttimeout
+  set ttimeoutlen=10
+endif
+
 " Misc
 
 set autoindent
